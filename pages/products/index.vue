@@ -4,8 +4,10 @@
     </div>
 </template>
 
-<script setup>
-
+<script lang="ts" setup>
+    definePageMeta({
+        layout: `products`
+    })
 </script>
 
 <style scoped>
