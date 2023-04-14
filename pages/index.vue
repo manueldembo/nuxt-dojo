@@ -11,7 +11,9 @@
 </template>
 
 <script setup>
-
+    useHead({
+        title: 'Nuxt Dojo | Merch',
+    })
 </script>
 
 <style scoped>
